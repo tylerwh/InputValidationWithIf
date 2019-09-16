@@ -7,21 +7,30 @@ Purpose: This program is to demonstrate gathering user input, formatting the dat
 
 def average():
 
+  score1 = float(input("Score 1: "))
+  score2 = float(input("Score 2: "))
+  score3 = float(input("Score 3: "))
 
-    score1 = float(input("Score 1: "))
-    if score1 >= 0:
-      score2 = float(input("Score 2: "))
-      if score2 >= 0:
-        score3 = float(input("Score 3: "))
-        if score3 >= 0:
-          number_of_tests = 3
-          return (score1 + score2 + score3) / number_of_tests
-        else:
-          print("Test score must be greater than or equal to zero.")
-      else:
-        print("Test score must be greater than or equal to zero.")
-    else:
-      print("Test score must be greater than or equal to zero.")
+  number_of_tests = 3
+
+  return (score1 + score2 + score3) / number_of_tests
+
+
+    # Below is the completed code
+    # score1 = float(input("Score 1: "))
+    # if score1 >= 0:
+    #   score2 = float(input("Score 2: "))
+    #   if score2 >= 0:
+    #     score3 = float(input("Score 3: "))
+    #     if score3 >= 0:
+    #       number_of_tests = 3
+    #       return (score1 + score2 + score3) / number_of_tests
+    #     else:
+    #       print("Test score must be greater than or equal to zero.")
+    #   else:
+    #     print("Test score must be greater than or equal to zero.")
+    # else:
+    #   print("Test score must be greater than or equal to zero.")
       
         
 
